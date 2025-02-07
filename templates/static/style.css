@@ -1,0 +1,45 @@
+.navbar {
+    background-color: #ffda00 !important;
+    color: aliceblue !important;
+}
+
+.btn-menu {
+    background-color: #f9ffbd !important;
+    outline-color: #f9ffbd !important;
+    border-color: #f9ffbd !important;
+    color: #492600 !important;
+    font-weight: 700 !important;
+}
+
+body {
+    background-color: #fdffe6!important;
+}
+
+.btn-adicionar{
+    background-color: #ffda00 !important;
+    outline-color: #ffda00 !important;
+    border-color: #ffda00 !important;
+    color: #492600 !important;
+    font-weight: 700 !important;
+}
+
+.btn-remover{
+    background-color: #492600 !important;
+    outline-color: #492600 !important;
+    border-color: #492600 !important;
+    color: white !important;
+    font-weight: 700 !important;
+}
+
+.btn-editar{
+    background-color: #fdffe6!important;
+    outline-color: #fdffe6!important;
+    border-color: #fdffe6!important;
+    color: #492600 !important;
+    font-weight: 700 !important;
+}
+
+th{
+    background-color: #ffda00 !important;
+    color: #492600 !important;
+}

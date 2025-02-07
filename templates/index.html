@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}Home - RestauranteFast{% endblock %}
+
+{% block content %}
+
+<section class="d-flex px-5 py-3 text-center">
+    <h1>{{ titulo }}</h1>
+</section>
+<div class="px-5">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                {% for coluna in colunas %}
+                <th>{{ coluna }}</th>
+                {% endfor %}
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in itens %}
+            <tr>
+                {% for valor in item.values() %}
+                <td>{{ valor }}</td>
+                {% endfor %}
+                <td class="d-flex gap-4">
+                    <a href="{{ url_editar }}/{{ item['id'] }}" class="btn btn-primary btn-sm btn-editar px-5">
+                        <i class="bi bi-pencil-fill"></i> Editar</a>
+                    <a href="{{ url_excluir }}/{{ item['id'] }}" class="btn btn-danger btn-sm btn-remover px-5">
+                        <i class="bi bi-trash-fill"></i> Excluir
+                    </a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <div class="d-flex justify-content-end">
+        <a href="{{ url_add }}" class="btn btn-success px-5 fw-bold fs-5 btn-adicionar w-50">
+            <i class="bi bi-plus"></i> Adicionar Novo
+        </a>
+    </div>
+</div>
+{% endblock %}

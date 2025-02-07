@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "mesa_id": 3,
+        "data": "2025-01-24",
+        "hora": "18:00",
+        "cliente": "Iasmin Azevedo"
+    },
+    {
+        "id": 2,
+        "mesa_id": 2,
+        "data": "2025-01-23",
+        "hora": "21:00",
+        "cliente": "Gabriel Tavares"
+    },
+    {
+        "id": 3,
+        "mesa_id": 3,
+        "data": "2025-01-23",
+        "hora": "14:00",
+        "cliente": "Matheus Cavalcante"
+    }
+]

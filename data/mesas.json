@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "area": "externa",
+        "capacidade": 4
+    },
+    {
+        "id": 2,
+        "tipo": "interna",
+        "capacidade": 6
+    },
+    {
+        "id": 3,
+        "nome": "interna",
+        "capacidade": 2
+    },
+    {
+        "id": 4,
+        "nome": "externa",
+        "capacidade": 6
+    },
+    {
+        "id": 5,
+        "nome": "interna",
+        "capacidade": 6
+    }
+]
