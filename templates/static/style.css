@@ -43,3 +43,7 @@ th{
     background-color: #ffda00 !important;
     color: #492600 !important;
 }
+
+.active{
+    color: #490000 !important;
+}
